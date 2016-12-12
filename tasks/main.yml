@@ -1,0 +1,8 @@
+---
+- name: Add Custom UCLA Library Yum Repository
+  yum_repository:
+    name: yum.library repo
+    description: Custom repo for containing RPMs not found in base or epel
+    baseurl: {{ librepo }}
+    gpgcheck: no
+    enabled: yes

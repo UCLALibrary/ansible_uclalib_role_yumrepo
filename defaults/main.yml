@@ -1,2 +1,2 @@
 ---
-librepo: http://yum.library.ucla.edu/
+librepo: http://yum.library.ucla.edu/rhel{{ ansible_distribution_major_version }}
